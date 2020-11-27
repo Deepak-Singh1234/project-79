@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizzaria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Pizzaria</a>
+        <div class="topnav-right">
+         <a href="#viewblock">View Menu</a>
+         <a href="#addTopings">Add Menu</a>
+        </div>
+    </div>
+
+    <div class="row" id="viewblock">
+        <div  class="img_div"> 
+            <img class="img-responsive"  src="images/pizza.png">
+        </div>
+        <hr>
+        <span><h1>1. Neapolitan Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/11/pizzatypes-margherita-.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>2. Chicago Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/11/pizzatypes-deepdish.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>3. New York-Style Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/blog/2016/8/flat.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>4. Sicilian Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/blog/2016/8/rectangle.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>5. Greek Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/blog/2016/8/onions.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>6. California Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/11/pizzatypes-gourmet.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>7. Detroit Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/blog/2019/3/blog-types-pizza_in-blog-7.jpg"></span>
+     <hr>
+     <hr>
+        <span><h1>8. St. Louis Pizza</h1> <img src="https://cdnimg.webstaurantstore.com/uploads/blog/2019/3/blog-types-pizza_in-blog-8.jpg"></span>
+     <hr>
+    </div>
+    
+    <div class="newRow" id="addTopings">
+        <div class="block1">
+            <input id="add_item" placeholder="Type here to add toppings?"/></br>
+            <button id="add_toppings" onclick="add_item()" >Recommend a new Pizza</button>
+        </div>
+        
+    </div>
+    <div>
+        <span>1</span>  <input type="text" placeholder="new pizza's name please" id="pizza1">
+        <br><br>
+        <span>2</span>  <input type="text" placeholder="new pizza's name please" id="pizza2">
+        <br><br>
+        <span>3 </span> <input type="text" placeholder="new pizza's name please" id="pizza3">
+        <br><br>
+        <span>4 </span> <input type="text" placeholder="new pizza's name please" id="pizza4">
+    </div>
+        <button type="button" id="makealign" onclick="makeingalign()">submit</button>
+   <div id="division1">
+
+   </div>
+   <button type="button" id="makealign2" onclick="makeingalign2()">sort</button>
+</center>
+    <div>
+        <img class="img-responsive"  src="images/topping.png">
+    </div>
+
+</body>
+</html>
